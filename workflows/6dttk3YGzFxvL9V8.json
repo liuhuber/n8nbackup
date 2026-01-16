@@ -1,0 +1,67 @@
+{
+  "active": false,
+  "activeVersion": null,
+  "activeVersionId": null,
+  "connections": {
+    "When clicking ‘Test workflow’": {
+      "main": [
+        [
+          {
+            "node": "Execute Command",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "createdAt": "2025-12-08T07:26:09.689Z",
+  "id": "6dttk3YGzFxvL9V8",
+  "isArchived": false,
+  "meta": null,
+  "name": "n8n備份Credentials",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "44556245-6759-4410-8872-868682b28b27",
+      "name": "When clicking ‘Test workflow’"
+    },
+    {
+      "parameters": {
+        "command": "n8n export:credentials --backup --decrypted --output=/home/node/temp/n8n_backup\n"
+      },
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [
+        224,
+        0
+      ],
+      "id": "d082dd35-d9f0-46eb-b034-683e511369cf",
+      "name": "Execute Command"
+    }
+  ],
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "shared": [
+    {
+      "updatedAt": "2025-12-08T07:26:09.694Z",
+      "createdAt": "2025-12-08T07:26:09.694Z",
+      "role": "workflow:owner",
+      "workflowId": "6dttk3YGzFxvL9V8",
+      "projectId": "P6K4d0THghyzcD8Q"
+    }
+  ],
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 0,
+  "updatedAt": "2025-12-26T06:41:06.000Z",
+  "versionId": "aa29b20a-57c8-40d9-8700-f80edb2c6098"
+}
