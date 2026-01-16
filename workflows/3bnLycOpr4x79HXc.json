@@ -1,0 +1,14 @@
+{
+  "createdAt": "2025-10-16T03:03:29.297Z",
+  "data": {
+    "user": "liuhuber@gmail.com",
+    "password": "lhisxlwpwxuwamax",
+    "host": "smtp.gmail.com"
+  },
+  "id": "3bnLycOpr4x79HXc",
+  "isGlobal": false,
+  "isManaged": false,
+  "name": "SMTP account",
+  "type": "smtp",
+  "updatedAt": "2025-10-16T03:03:29.294Z"
+}
